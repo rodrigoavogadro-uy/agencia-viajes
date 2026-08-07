@@ -1,7 +1,7 @@
 class Sistema {
     constructor(){
         this.administradores = [
-            new Administrador("martinperez", "123"),
+            new Administrador("adminprueba", "123"),
             new Administrador("sofiarodriguez", "Srodriguez1"),
             new Administrador("diegolopez", "Dlopez1"),
             new Administrador("rodrigoavogadro", "Ravogadro1"),
@@ -9,7 +9,7 @@ class Sistema {
         ];
 
         this.clientes = [
-            new Cliente("Martín", "Pérez", "mperez_uruguay", "123", "4485746493384014", 123, 100, 9000),
+            new Cliente("Martín", "Pérez", "cliente_prueba", "123", "4485746493384014", 123, 100, 9000),
             new Cliente("Sofía", "Rodríguez", "srodriguez_uy", "S0fiaUruguay", "4539371567070872", 456, 15000, 0),
             new Cliente("Juan", "González", "jgonzalez_uy", "Jua1nGonzalez", "4539625308478250", 789, 5552546, 2000),
             new Cliente("Carolina", "Silva", "csilva_uruguay", "Car0l1naSilva", "4916103567334187", 101, 3000, 0),
@@ -30,13 +30,13 @@ class Sistema {
         ]
 
         this.reservas = [
-            new Reserva("mperez_uruguay","París, Francia", 8, 12000, "aprobada", "Millas"),
-            new Reserva("mperez_uruguay","Tokio, Japón", 5, 11000, "pendiente", "Millas"),
+            new Reserva("cliente_prueba","París, Francia", 8, 12000, "aprobada", "Millas"),
+            new Reserva("cliente_prueba","Tokio, Japón", 5, 11000, "pendiente", "Millas"),
             new Reserva("srodriguez_uy","Bali, Indonesia", 12, 14400, "pendiente", "Dinero"),
             new Reserva("jgonzalez_uy","Nueva York, EE.UU.", 3, 5400, "cancelada", "Millas"),
             new Reserva("srodriguez_uy","El Cairo, Egipto", 6, 8400, "aprobada", "Dinero"),
-            new Reserva("mperez_uruguay","El Cairo, Egipto", 6, 8400, "aprobada", "Dinero"),
-            new Reserva("mperez_uruguay","Bali, Indonesia", 4, 4800, "aprobada", "Dinero"),
+            new Reserva("cliente_prueba","El Cairo, Egipto", 6, 8400, "aprobada", "Dinero"),
+            new Reserva("cliente_prueba","Bali, Indonesia", 4, 4800, "aprobada", "Dinero"),
         ]
     }
 
