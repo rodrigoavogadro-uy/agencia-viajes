@@ -56,6 +56,22 @@ body::after {
     margin-top: 100px;
 }
 
+/* Todas las pantallas excepto la de inicio arrancan ocultas por CSS,
+   para evitar el flash de contenido antes de que cargue el JS */
+#pantallaRegistro,
+#pantallaPrincipalAdministradores,
+#pantallaPrincipalClientes,
+#pantallaExplorarDestinos,
+#pantallaReservarDestinos,
+#pantallaReservarDestinosEnOferta,
+#pantallaHistorialReservas,
+#pantallaAdministrarDestinos,
+#pantallaAgregarDestinos,
+#pantallaInformeGanancias,
+#pantallaListadoYAprobacionDeReservas {
+    display: none;
+}
+
 /* Formularios con tablas usan más ancho */
 #pantallaExplorarDestinos,
 #pantallaReservarDestinos,
